@@ -1,9 +1,12 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const MainNavar = defineAsyncComponent(() => import('@/components/MainNavbar.vue'))
+const MainFooter = defineAsyncComponent(() => import('@/components/MainFooter.vue'))
+</script>
 
 <template>
   <section>
-    <h2>Navbar Layout default</h2>
+    <MainNavar />
     <slot />
-    <h2>Footer Layout default</h2>
+    <MainFooter />
   </section>
 </template>
