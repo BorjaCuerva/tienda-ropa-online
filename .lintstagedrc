@@ -1,0 +1,5 @@
+{
+  "**/*.{ts,vue}": "npx nuxi typecheck --cwd=$(dirname $(realpath $LINTSTAGED_FILE))",
+  "**/*.{ts,js,vue}": "eslint --fix",
+  "**/*.{vue,css,scss}": "stylelint --fix"
+}
