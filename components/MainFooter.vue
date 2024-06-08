@@ -1,9 +1,5 @@
 <script setup lang="ts">
 import { INSTAGRAM, FACEBOOK, TIKTOK, TWITTER } from '@/constants/rrss'
-const Instagram = defineAsyncComponent(() => import('@/components/svg/Instagram.vue'))
-const Facebook = defineAsyncComponent(() => import('@/components/svg/Facebook.vue'))
-const Twitter = defineAsyncComponent(() => import('@/components/svg/Twitter.vue'))
-const Tiktok = defineAsyncComponent(() => import('@/components/svg/Tiktok.vue'))
 </script>
 <template>
   <footer class="footer">
@@ -33,6 +29,7 @@ const Tiktok = defineAsyncComponent(() => import('@/components/svg/Tiktok.vue'))
   @include flex(row, center, space-between);
   width: 100%;
   max-width: 120rem;
+
   @include responsive() {
     @include flex(column, center, center);
   }
