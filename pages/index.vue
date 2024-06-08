@@ -1,63 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const HeroBlock = defineAsyncComponent(() => import('@/components/HeroBlock.vue'))
+</script>
 <template>
-  <div class="margin">
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-    <h1>HOME aaaaa</h1>
-  </div>
+  <section class="margin">
+    <HeroBlock />
+  </section>
 </template>
 
 <style scoped lang="scss">
 .margin {
   margin: 6em 0 0;
+
+  @include responsive() {
+    margin: 8em 0 0;
+  }
 }
 </style>
