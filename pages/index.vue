@@ -1,9 +1,11 @@
 <script setup lang="ts">
 const HeroBlock = defineAsyncComponent(() => import('@/components/HeroBlock.vue'))
+const GridBlock = defineAsyncComponent(() => import('@/components/GridBlock.vue'))
 </script>
 <template>
   <section class="margin">
     <HeroBlock />
+    <GridBlock />
   </section>
 </template>
 
