@@ -96,6 +96,9 @@ const Logo = defineAsyncComponent(() => import('@/components/svg/Logo.vue'))
       cursor: pointer;
       scale: 1.1;
     }
+    @include responsive() {
+      display: none;
+    }
   }
 }
 </style>
