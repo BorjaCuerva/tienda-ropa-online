@@ -1,8 +1,8 @@
-- [] Add fonts
-- [] add images
-- [] layout
-- [] navbar
-- [] footer
+- [x] Add fonts
+- [x] add images
+- [x] layout
+- [x] navbar
+- [x] footer
 - [] home
 - [] shoop
 - [] blog
