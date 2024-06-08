@@ -15,15 +15,15 @@ export default defineNuxtConfig({
       },
     },
   },
-  // components: [
-  //   {
-  //     path: '@/components/svg',
-  //     pathPrefix: false,
-  //   },
-  // ],
+  components: [
+    {
+      path: '@/components/svg',
+      pathPrefix: false,
+    },
+  ],
   app: {
     head: {
-      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }],
     },
   },
   typescript: {
