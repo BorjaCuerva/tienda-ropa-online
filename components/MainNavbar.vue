@@ -1,12 +1,4 @@
-<script setup lang="ts">
-import { INSTAGRAM, FACEBOOK, TIKTOK, TWITTER } from '@/constants/rrss'
-
-const Instagram = defineAsyncComponent(() => import('@/components/svg/Instagram.vue'))
-const Facebook = defineAsyncComponent(() => import('@/components/svg/Facebook.vue'))
-const Twitter = defineAsyncComponent(() => import('@/components/svg/Twitter.vue'))
-const Tiktok = defineAsyncComponent(() => import('@/components/svg/Tiktok.vue'))
-const Logo = defineAsyncComponent(() => import('@/components/svg/Logo.vue'))
-</script>
+<script setup lang="ts"></script>
 <template>
   <nav class="navbar">
     <ul class="navbar__ul">
@@ -23,18 +15,9 @@ const Logo = defineAsyncComponent(() => import('@/components/svg/Logo.vue'))
     <NuxtLink class="navbar__logo" :to="{ name: 'index' }">
       <Logo />
     </NuxtLink>
-    <ul class="navbar__ul navbar__ul--rrss">
+    <ul class="navbar__ul navbar__ul--icons">
       <li class="navbar__li">
-        <NuxtLink :to="INSTAGRAM" target="_blank"><Instagram /></NuxtLink>
-      </li>
-      <li class="navbar__li">
-        <NuxtLink :to="FACEBOOK" target="_blank"><Facebook /></NuxtLink>
-      </li>
-      <li class="navbar__li">
-        <NuxtLink :to="TWITTER" target="_blank"><Twitter /></NuxtLink>
-      </li>
-      <li class="navbar__li">
-        <NuxtLink :to="TIKTOK" target="_blank"><Tiktok /></NuxtLink>
+        <NuxtLink :to="{ name: 'carrito-detalle' }" target="_blank"><Cart /></NuxtLink>
       </li>
     </ul>
   </nav>
@@ -69,7 +52,7 @@ const Logo = defineAsyncComponent(() => import('@/components/svg/Logo.vue'))
       @include flex(column);
     }
 
-    &--rrss {
+    &--icons {
       @include responsive() {
         @include flex(row, center, center);
       }
