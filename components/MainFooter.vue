@@ -25,7 +25,7 @@ import { INSTAGRAM, FACEBOOK, TIKTOK, TWITTER } from '@/constants/rrss'
 .footer {
   background: -webkit-linear-gradient(180deg, #000000, #4f4f4f);
   background: linear-gradient(180deg, #000000, #4f4f4f);
-  padding: 1.4em 2em;
+  padding: 1.4em 8em;
   @include flex(row, center, space-between);
   width: 100%;
   max-width: 120rem;

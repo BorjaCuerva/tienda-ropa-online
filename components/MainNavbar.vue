@@ -31,7 +31,7 @@
 }
 
 .navbar {
-  padding: 1.4em 2em;
+  padding: 1.4em 8em;
   @include flex(row, center, space-between);
   position: fixed;
   z-index: 1000;
