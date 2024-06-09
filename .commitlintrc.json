@@ -40,7 +40,7 @@
         "internacionalization",
         "layout",
         "middlewares",
-        "mock",
+        "mocks",
         "pages",
         "plugins",
         "readme",
