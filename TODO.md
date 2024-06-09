@@ -3,6 +3,11 @@
 - [x] layout
 - [x] navbar
 - [x] footer
-- [] home
-- [] shoop
-- [] blog
+- [x] home
+- [ ] shoop
+- [ ] contact form
+- [ ] cart
+- [ ] blog
+- [x] carousel banners
+- [x] responsive bento grid
+
