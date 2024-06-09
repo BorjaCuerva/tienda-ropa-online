@@ -16,7 +16,7 @@ defineProps(['item'])
   position: relative;
   background-size: cover;
   background-position: center;
-  border-radius: 1em;
+  border-radius: 0.5em;
   filter: grayscale(100%);
   cursor: pointer;
   transition: 0.3s filter ease;

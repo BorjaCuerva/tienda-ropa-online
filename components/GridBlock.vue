@@ -24,10 +24,35 @@ const GridItem = defineAsyncComponent(() => import('@/components/GridItem.vue'))
     'label3 label3 label3 label4 label4 label5 label5'
     'label3 label3 label3 label4 label4 label5 label5';
 
-  gap: 0.5em;
+  gap: 2em 1em;
   height: 100%;
   margin: 4em 0;
   padding: 0 8em;
+
+  @include responsive(79.375rem) {
+    font-size: 0.8em;
+    grid-template-areas:
+      'label0 label0 label1 label1'
+      'label2 label2 label3 label3'
+      'label4 label4 label5 label5';
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20em 20em 20em;
+  }
+
+  @include responsive() {
+    font-size: 0.6em;
+    grid-template-areas:
+      'label0'
+      'label1'
+      'label2'
+      'label3';
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 20em 20em 20em 20em;
+    padding: 0 0 0 1em;
+    gap: 0.8em;
+  }
 
   &__item-0 {
     grid-area: label0;
