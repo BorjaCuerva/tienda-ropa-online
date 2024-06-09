@@ -32,6 +32,7 @@ import { INSTAGRAM, FACEBOOK, TIKTOK, TWITTER } from '@/constants/rrss'
 
   @include responsive() {
     @include flex(column, center, center);
+    padding: 1em;
   }
 
   &__ul {
