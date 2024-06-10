@@ -6,7 +6,6 @@ export default defineNuxtConfig({
   spaLoadingTemplate: false,
   css: ['assets/styles/scss/reset.scss'],
   vite: {
-    base: '/tienda-ropa-online/',
     css: {
       preprocessorOptions: {
         scss: {
@@ -26,6 +25,7 @@ export default defineNuxtConfig({
     head: {
       link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }],
     },
+    baseURL: '/tienda-ropa-online/',
   },
   typescript: {
     strict: true,
