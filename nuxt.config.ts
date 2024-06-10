@@ -26,6 +26,7 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }],
     },
     baseURL: '/tienda-ropa-online/',
+    buildAssetsDir: 'assets',
   },
   typescript: {
     strict: true,

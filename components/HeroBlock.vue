@@ -6,12 +6,10 @@
       <p>La mejor tienda de ropa deportiva</p>
       <p class="hero__subtext">¡Envíos a todo el país!</p>
     </article>
-    <ClientOnly>
-      <video class="hero__video" muted autoplay loop playsinline>
-        <source src="/video/tienda-ropa.webm" type="video/webm" />
-        <source src="/video/tienda-ropa.mp4" type="video/mp4" />
-      </video>
-    </ClientOnly>
+    <video class="hero__video" muted autoplay loop playsinline>
+      <source src="/video/tienda-ropa.webm" type="video/webm" />
+      <source src="/video/tienda-ropa.mp4" type="video/mp4" />
+    </video>
   </section>
 </template>
 
