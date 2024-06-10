@@ -33,12 +33,12 @@
 .navbar {
   padding: 1.4em 8em;
   @include flex(row, center, space-between);
-  position: fixed;
+  position: sticky;
+  top: 0;
   z-index: 1000;
   background: -webkit-linear-gradient(180deg, #000000, #4f4f4f);
   background: linear-gradient(180deg, #000000, #4f4f4f);
   width: 100%;
-  top: 0;
   max-width: 120rem;
 
   @include responsive() {

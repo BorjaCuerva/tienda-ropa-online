@@ -15,7 +15,6 @@
 
 <style scoped lang="scss">
 .hero {
-  margin: 6em 0 0;
   position: relative;
   height: 46em;
 

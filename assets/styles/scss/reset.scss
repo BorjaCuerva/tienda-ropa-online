@@ -48,7 +48,6 @@ li {
 /* Configuramos anclas suaves */
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
   font-size: 100%;
 }
 
@@ -115,7 +114,6 @@ svg {
 
 /* Configuramos la tipografía para toda la web */
 body {
-  overflow-x: hidden;
   max-width: 120rem;
   margin: auto;
   min-height: 100vh;
