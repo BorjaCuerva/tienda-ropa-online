@@ -21,7 +21,7 @@
     "test": "vitest",
     "vitest": "vitest run",
     "format": "prettier --write \"**/*.{js,ts,vue,json,css,md}\"",
-    "prepare": "node .husky/install.mjs",
+    "prepare": "husky",
     "release": "bumpp --commit --push --tag",
     "deploy": "gh-pages -d dist"
   },
