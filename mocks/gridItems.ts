@@ -1,43 +1,52 @@
+import {
+  CamisetaAzul,
+  BolsoAzul,
+  LegginAzul,
+  SudaderaAmarilla,
+  PantalonCorto,
+  TopGris,
+} from '@/public/index'
+
 export const gridItems = [
   {
     id: 0,
     title: 'Camisetas',
-    imgUrl: '/img/camisetas/camiseta-azul.jpg',
+    imgUrl: CamisetaAzul,
     alt: 'Camisetas Sportivat',
     route: '/camisetas',
   },
   {
     id: 1,
     title: 'Complementos',
-    imgUrl: '/img/complementos/bolso-azul.jpg',
+    imgUrl: BolsoAzul,
     alt: 'Complementos Sportivat',
     route: '/complementos',
   },
   {
     id: 2,
     title: 'Leggins',
-    imgUrl: '/img/leggins/leggin-azul.jpg',
+    imgUrl: LegginAzul,
     alt: 'Leggins Sportivat',
     route: '/leggins',
   },
   {
     id: 3,
     title: 'Pantalones',
-    imgUrl: '/img/pantalones/pantalon-corto.jpg',
+    imgUrl: PantalonCorto,
     alt: 'Pantalones Sportivat',
     route: '/pantalones',
   },
   {
     id: 4,
     title: 'Sudaderas',
-    imgUrl: '/img/sudaderas/sudadera-amarilla.jpg',
+    imgUrl: SudaderaAmarilla,
     alt: 'Sudaderas Sportivat',
     route: '/sudaderas',
   },
   {
     id: 5,
     title: 'Tops',
-    imgUrl: '/img/tops/top-gris.jpg',
+    imgUrl: TopGris,
     alt: 'Tops Sportivat',
     route: '/tops',
   },
