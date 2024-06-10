@@ -1,12 +1,13 @@
+import { BannerPromo, BannerPromoSecond } from '@/public/index'
 export const carouselItems = [
   {
     id: 1,
-    imageUrl: '/img/banners/banner-promo-sportivat.jpg',
+    imageUrl: BannerPromo,
     alt: 'Banner promo sportivat Fashion Week',
   },
   {
     id: 2,
-    imageUrl: '/img/banners/banner-promo-sportivat-second.jpg',
+    imageUrl: BannerPromoSecond,
     alt: 'Banner promo sportivat',
   },
 ]
