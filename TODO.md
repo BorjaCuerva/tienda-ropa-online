@@ -5,9 +5,13 @@
 - [x] footer
 - [x] home
 - [ ] shoop
+- [ ] shoop detail
 - [ ] contact form
+- [ ] add middleware for routes
 - [ ] cart
+- [ ] 404 page
 - [ ] blog
+- [ ] blog detail
 - [x] carousel banners
 - [x] responsive bento grid
 
