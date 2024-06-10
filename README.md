@@ -1,75 +1,17 @@
-# Nuxt 3 Minimal Starter
+# SportivaT - Tienda de Ropa
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+SportivaT es una aplicación web moderna construida con Nuxt 3, diseñada para ofrecer una experiencia de compra online de ropa deportiva. Este proyecto combina la facilidad de uso con la estética y funcionalidad avanzadas para proporcionar una plataforma de comercio electrónico eficiente y atractiva.
 
-## Setup
+## Características
 
-Make sure to install the dependencies:
+- **Catálogo completo**: Ofrece una amplia selección de ropa deportiva para hombres, mujeres y niños.
+- **Carrito de compras**: Permite a los usuarios agregar productos a su carrito y realizar compras seguras.
+- **Gestión de pedidos**: Proporciona herramientas para gestionar pedidos y envíos.
 
-```bash
-# npm
-npm install
+## Tecnologías Utilizadas
 
-# pnpm
-pnpm install
+- Frontend: Nuxt 3, Vue 3, scss (para el diseño responsivo).
 
-# yarn
-yarn install
+## Agradecimientos
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- A @RodriAsime por su ayuda en la configuración de github pages con Nuxt 3
