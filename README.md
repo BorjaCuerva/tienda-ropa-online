@@ -14,4 +14,4 @@ SportivaT es una aplicación web moderna construida con Nuxt 3, diseñada para o
 
 ## Agradecimientos
 
-- A @RodriAsime por su ayuda en la configuración de github pages con Nuxt 3
+- A [@RodriAsime](https://github.com/RodriAsime) por su ayuda en la configuración de GitHub Pages con Nuxt 3.
