@@ -1,16 +1,17 @@
 <script setup lang="ts">
-defineProps(['item'])
+type Props = {
+  title: string
+  imgUrl: string
+  route: string
+}
+
+defineProps<Props>()
 </script>
 <template>
-  <NuxtLink
-    :style="{ backgroundImage: `url(${item.imgUrl})` }"
-    class="card"
-    :to="item.route"
-  >
-    <h2 class="card__h2">{{ item.title }}</h2>
+  <NuxtLink :style="{ backgroundImage: `url(${imgUrl})` }" class="card" :to="route">
+    <h2 class="card__h2">{{ title }}</h2>
   </NuxtLink>
 </template>
-
 <style scoped lang="scss">
 .card {
   position: relative;

@@ -8,7 +8,7 @@ const GridItem = defineAsyncComponent(() => import('@/components/GridItem.vue'))
       v-for="item in gridItems"
       :class="`grid__item-${item.id}`"
       :key="item.id"
-      :item="item"
+      v-bind="item"
     ></GridItem>
   </section>
 </template>
