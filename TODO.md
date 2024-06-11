@@ -7,6 +7,7 @@
 - [ ] shoop
 - [ ] shoop detail
 - [ ] contact form
+- [ ] button component
 - [ ] add middleware for routes
 - [ ] cart
 - [ ] 404 page
