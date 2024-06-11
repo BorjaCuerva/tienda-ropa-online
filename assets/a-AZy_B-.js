@@ -1,0 +1,1 @@
+const s="/tienda",n="tienda-camisetas",a="tienda-complementos",e="tienda-leggins",t="tienda-pantalones",S="tienda-sudaderas",o="tienda-tops",m=[{slug:s,name:"Tienda"},{slug:n,name:"Camisetas"},{slug:a,name:"Complementos"},{slug:e,name:"Leggins"},{slug:t,name:"Pantalones"},{slug:S,name:"Sudaderas"},{slug:o,name:"Tops"}];export{s as S,m as a};

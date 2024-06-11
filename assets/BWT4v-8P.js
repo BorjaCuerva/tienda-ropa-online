@@ -1,0 +1,1 @@
+import{_ as e}from"./BdS74b7y.js";import{d as s,o as a,i as n,w as _,j as r,_ as c}from"./DLJ8MEac.js";const p=s({__name:"CategoryButton",props:{slug:{}},setup(u){return(t,l)=>{const o=e;return a(),n(o,{class:"button",to:t.slug},{default:_(()=>[r(t.$slots,"default",{},void 0,!0)]),_:3},8,["to"])}}}),f=c(p,[["__scopeId","data-v-2c6b643a"]]);export{f as default};
