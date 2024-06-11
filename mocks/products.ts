@@ -32,26 +32,6 @@ import {
 
 export const products = [
   {
-    id: 1,
-    title: 'Banner Promo Second',
-    slug: 'banner-promo-second',
-    category: 'banners',
-    price: 0,
-    size: '',
-    description: 'Imagen de banner promo second.',
-    imgUrl: BannerPromoSecond,
-  },
-  {
-    id: 2,
-    title: 'Banner Promo',
-    slug: 'banner-promo',
-    category: 'banners',
-    price: 0,
-    size: '',
-    description: 'Imagen de banner promo.',
-    imgUrl: BannerPromo,
-  },
-  {
     id: 3,
     title: 'Bolso Azul',
     slug: 'bolso-azul',
