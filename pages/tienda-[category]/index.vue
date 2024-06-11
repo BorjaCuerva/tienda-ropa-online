@@ -1,10 +1,15 @@
 <script setup lang="ts">
+const Card = defineAsyncComponent(() => import('@/components/Card.vue'))
+const CategoryNavegation = defineAsyncComponent(
+  () => import('@/components/common/CategoryNavegation.vue'),
+)
 const { category } = useRoute().params
-const pito = filterProducts(category as string)
+const products = filterProductsByCategory(category as string)
 </script>
 <template>
-  <div>
-    <h1>TIENDA CATEGORY</h1>
-    {{ pito }}
-  </div>
+  <h1>Tienda productos por categoria</h1>
+  <section>
+    <CategoryNavegation />
+    <Card v-for="product in products" :key="product.id" v-bind="product" />
+  </section>
 </template>
