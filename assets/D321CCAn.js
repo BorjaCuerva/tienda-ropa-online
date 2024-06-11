@@ -1,0 +1,1 @@
+import"./DiXI0LOj.js";const o=""+new URL("banner-promo-sportivat-second.D9lzUxj_.jpg",import.meta.url).href,e=""+new URL("banner-promo-sportivat.DtWeIIrd.jpg",import.meta.url).href;export{o as B,e as a};
