@@ -6,9 +6,27 @@ const CategoryNavegation = defineAsyncComponent(
 )
 </script>
 <template>
-  <h1>Toda nuestra colección</h1>
   <CategoryNavegation />
-  <Card v-for="product in products" :key="product.id" v-bind="product" />
+  <h1 class="title">Toda nuestra colección</h1>
+  <section class="grid">
+    <Card v-for="product in products" :key="product.id" v-bind="product" />
+  </section>
 </template>
 
-<!-- <style scoped lang="scss"></style> -->
+<style scoped lang="scss">
+.grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
+  padding: 1em 8em;
+}
+
+.title {
+  text-align: center;
+  margin: 2em 0 0;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: map.get($colors, 'c-primary');
+}
+</style>
