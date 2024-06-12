@@ -15,8 +15,12 @@ const CategoryButton = defineAsyncComponent(
 <style scoped lang="scss">
 .navigation {
   @include flex();
+  flex-wrap: wrap;
+  gap: 1em;
   background-color: #0f0f0f;
-  padding: 1.5em 0;
-  margin: 2em 0;
+
+  padding: 1.5em;
+  position: sticky;
+  top: 5.9em;
 }
 </style>
