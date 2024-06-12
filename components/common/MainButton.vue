@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { SHOP } from '@/constants/slugs'
 type Props = {
   slug: string
 }
@@ -6,7 +7,7 @@ type Props = {
 defineProps<Props>()
 </script>
 <template>
-  <NuxtLink class="button" to="/tienda"><slot></slot></NuxtLink>
+  <NuxtLink class="button" :to="SHOP"><slot></slot></NuxtLink>
 </template>
 
 <style scoped lang="scss">
