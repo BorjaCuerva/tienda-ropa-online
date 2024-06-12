@@ -16,7 +16,7 @@ const GridItem = defineAsyncComponent(() => import('@/components/GridItem.vue'))
 <style scoped lang="scss">
 .grid {
   display: grid;
-  grid-template-rows: 20em 20em 20em 20em;
+  grid-template-rows: 16em 16em 16em 16em;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     'label0 label0 label0 label1 label1 label2 label2'
@@ -37,7 +37,7 @@ const GridItem = defineAsyncComponent(() => import('@/components/GridItem.vue'))
       'label4 label4 label5 label5';
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20em 20em 20em;
+    grid-template-rows: 16em 16em 16em;
   }
 
   @include responsive() {
@@ -49,7 +49,7 @@ const GridItem = defineAsyncComponent(() => import('@/components/GridItem.vue'))
       'label3';
 
     grid-template-columns: 1fr;
-    grid-template-rows: 20em 20em 20em 20em;
+    grid-template-rows: 16em 16em 16em 16em;
     padding: 0 0 0 1em;
     gap: 0.8em;
   }
