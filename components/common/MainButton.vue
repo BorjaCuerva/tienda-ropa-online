@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { SHOP } from '@/constants/slugs'
 type Props = {
-  slug: string
+  slug?: string
 }
 
 defineProps<Props>()
@@ -20,8 +20,8 @@ defineProps<Props>()
   color: map.get($colors, 'c-black');
   font-weight: 800;
   transition: all 0.3s ease;
+  width: 100%;
   min-width: 14em;
-  max-width: 14em;
   text-align: center;
 
   &:hover {
