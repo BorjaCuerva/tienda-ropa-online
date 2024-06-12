@@ -10,7 +10,7 @@ export const TOPS_SHOP = 'tienda-tops'
 export const STORE_SLUGS = [
   {
     slug: SHOP,
-    name: 'Tienda',
+    name: 'Todos los productos',
   },
   {
     slug: T_SHIRT_SHOP,
