@@ -9,6 +9,9 @@
         <NuxtLink :to="{ name: 'tienda' }" active-class="active">Tienda</NuxtLink>
       </li>
       <li class="navbar__li">
+        <NuxtLink :to="{ name: 'blogs' }" active-class="active">Blog</NuxtLink>
+      </li>
+      <li class="navbar__li">
         <NuxtLink :to="{ name: 'contacto' }" active-class="active">Contacto</NuxtLink>
       </li>
     </ul>
@@ -17,7 +20,7 @@
     </NuxtLink>
     <ul class="navbar__ul navbar__ul--icons">
       <li class="navbar__li">
-        <NuxtLink :to="{ name: 'carrito-detalle' }" target="_blank"><Cart /></NuxtLink>
+        <Cart />
       </li>
     </ul>
   </nav>

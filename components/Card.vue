@@ -28,13 +28,13 @@ const styleCard = ref({
       </article>
       <article class="card__buttons">
         <MainButton>Añadir al carrito</MainButton>
-        <MainButton
+        <!-- <MainButton
           :to="{
             name: 'tienda-category-title',
             params: { title: slug, category },
           }"
           >Más información</MainButton
-        >
+        > -->
       </article>
     </div>
   </article>
@@ -50,6 +50,11 @@ const styleCard = ref({
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0.5em;
+
+  @include responsive() {
+    width: 20em;
+    height: 30em;
+  }
 
   &__container {
     background-color: rgba(0, 0, 0, 0.8);
