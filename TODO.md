@@ -4,15 +4,17 @@
 - [x] navbar
 - [x] footer
 - [x] home
-- [ ] shoop
-- [ ] shoop detail
-- [ ] contact form
-- [ ] button component
+- [x] shoop
+- [ ] product detail
+- [x] contact form
+- [x] button component
 - [ ] add middleware for routes
 - [ ] cart
-- [ ] 404 page
-- [ ] blog
-- [ ] blog detail
+- [x] 404 page
+- [x] blog
+- [x] responsive blog
+- [x] blog detail
+- [x] responsive blog detail
 - [x] carousel banners
 - [x] responsive bento grid
 

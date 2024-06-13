@@ -26,5 +26,12 @@ defineProps<Props>()
   &:hover {
     transform: scale(1.1);
   }
+
+  @include responsive() {
+    padding: 0.8em 1.5em;
+    margin: 0 0.5em;
+    min-width: 10em;
+    max-width: 10em;
+  }
 }
 </style>

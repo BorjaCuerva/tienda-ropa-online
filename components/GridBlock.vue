@@ -46,10 +46,12 @@ const GridItem = defineAsyncComponent(() => import('@/components/GridItem.vue'))
       'label0'
       'label1'
       'label2'
-      'label3';
+      'label3'
+      'label4'
+      'label5';
 
     grid-template-columns: 1fr;
-    grid-template-rows: 16em 16em 16em 16em;
+    grid-template-rows: 16em 16em 16em 16em 16em 16em;
     padding: 0 0 0 1em;
     gap: 0.8em;
   }

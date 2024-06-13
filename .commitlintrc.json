@@ -33,6 +33,7 @@
         "composables",
         "config",
         "constants",
+        "content",
         "dependencies",
         "documentation",
         "infrastructure",

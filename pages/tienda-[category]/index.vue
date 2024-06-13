@@ -20,6 +20,11 @@ const products = filterProductsByCategory(category as string)
   place-items: center;
   grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
   padding: 1em 8em;
+
+  @include responsive() {
+    padding: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  }
 }
 
 .title {
