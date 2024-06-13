@@ -34,6 +34,11 @@ import TopNegroChica from './img/tops/top-negro-chica.jpg'
 import TopNegro from './img/tops/top-negro.jpg'
 import TopRojo from './img/tops/top-rojo.jpg'
 
+import SportBlog from './img/blogs/deporte-blog.jpg'
+import ClothesBlog from './img/blogs/ropa-blog.jpg'
+import RoutineBlog from './img/blogs/rutina-blog.jpg'
+import RunningBlog from './img/blogs/equipacion-correr.jpg'
+
 export {
   BannerPromoSecond,
   BannerPromo,
@@ -64,4 +69,8 @@ export {
   TopNegroChica,
   TopNegro,
   TopRojo,
+  SportBlog,
+  ClothesBlog,
+  RoutineBlog,
+  RunningBlog,
 }
