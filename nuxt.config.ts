@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     viewTransition: true,
   },
   devtools: { enabled: false },
-  modules: ['@pinia/nuxt'],
+  modules: ['@pinia/nuxt', '@nuxt/content'],
   ssr: false,
   spaLoadingTemplate: false,
   css: ['assets/styles/scss/reset.scss'],
