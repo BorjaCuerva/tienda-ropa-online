@@ -1,6 +1,6 @@
 ---
 title: 'Cuidado y Mantenimiento de tu Ropa Deportiva'
-description: 'Descubre cómo mantener tu ropa deportiva en perfectas condiciones con nuestros consejos prácticos'
+description: 'Descubre cómo puedes mantener tu ropa deportiva en perfectas condiciones con nuestros consejos prácticos'
 ---
 
 
