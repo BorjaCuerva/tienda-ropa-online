@@ -32,7 +32,6 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }],
       title: 'Sportivat, la mejor tienda de ropa deportiva online',
     },
-    baseURL: '/tienda-ropa-online/',
     buildAssetsDir: 'assets',
   },
   typescript: {
