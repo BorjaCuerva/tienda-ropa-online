@@ -5,7 +5,7 @@ description: 'Para mejorar tu rendimiento deportivo, es fundamental implementar 
 
 # Rutinas de Entrenamiento para Mejorar tu Rendimiento
 
-![Rutinas de Entrenamiento para Mejorar tu Rendimiento](assets/img/blogs/rutina-blog.jpg)
+![Rutinas de Entrenamiento para Mejorar tu Rendimiento](/blogs/rutina-blog.jpg)
 
 Mejorar tu rendimiento deportivo implica una combinación de entrenamiento físico, nutrición adecuada y descanso. Aquí te presentamos algunas rutinas de entrenamiento basadas en las mejores prácticas y metodologías utilizadas por atletas y entrenadores profesionales.
 

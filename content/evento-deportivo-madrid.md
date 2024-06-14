@@ -5,7 +5,7 @@ description: 'Madrid está lista para recibir a los aficionados en un año reple
 
 # ¡Prepárate para el Gran Evento Deportivo en Madrid!
 
-![Prepárate para el Gran Evento Deportivo en Madrid](assets/img/blogs/deporte-blog.jpg)
+![Prepárate para el Gran Evento Deportivo en Madrid](/blogs/deporte-blog.jpg)
 
 Participar en un gran evento deportivo es una oportunidad emocionante para competir, socializar y celebrar el amor por el deporte. Madrid, conocida por sus numerosos eventos deportivos, ofrece una variedad de opciones para todos los niveles de habilidad. Aquí te presentamos una guía completa para prepararte y maximizar tu experiencia durante el evento.
 
