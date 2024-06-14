@@ -1,3 +1,6 @@
+import fs from 'fs'
+import path from 'path'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   experimental: {
@@ -5,7 +8,6 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: false },
   modules: ['@pinia/nuxt', '@nuxt/content'],
-  ssr: false,
   spaLoadingTemplate: false,
   css: ['assets/styles/scss/reset.scss'],
   vite: {
