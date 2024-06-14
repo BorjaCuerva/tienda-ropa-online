@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: false },
   modules: ['@pinia/nuxt', '@nuxt/content'],
-  ssr: false,
+  ssr: true,
   spaLoadingTemplate: false,
   css: ['assets/styles/scss/reset.scss'],
   vite: {
