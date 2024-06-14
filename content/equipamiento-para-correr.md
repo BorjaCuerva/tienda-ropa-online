@@ -5,7 +5,7 @@ description: 'Para prepararte para correr, es crucial tener el equipo adecuado q
 
 # Equipamiento Esencial para Correr
 
-![Equipamiento Esencial para Correr](/img/blogs/equipacion-correr.jpg)
+![Equipamiento Esencial para Correr](assets/img/blogs/equipacion-correr.jpg)
 
 Correr es una de las actividades físicas más accesibles y beneficiosas. Sin embargo, para sacar el máximo provecho de tus sesiones de running y evitar lesiones, es crucial contar con el equipamiento adecuado. Aquí te presentamos una guía completa sobre el equipamiento esencial para corredores, tanto principiantes como avanzados.
 

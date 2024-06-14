@@ -7,8 +7,8 @@
       <p class="hero__subtext">¡Envíos a todo el país!</p>
     </article>
     <video class="hero__video" muted autoplay loop playsinline>
-      <source src="/video/tienda-ropa.webm" type="video/webm" />
-      <source src="/video/tienda-ropa.mp4" type="video/mp4" />
+      <source src="assets/video/tienda-ropa.webm" type="video/webm" />
+      <source src="assets/video/tienda-ropa.mp4" type="video/mp4" />
     </video>
   </section>
 </template>

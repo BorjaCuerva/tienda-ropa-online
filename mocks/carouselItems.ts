@@ -1,4 +1,4 @@
-import { BannerPromo, BannerPromoSecond } from '@/public/index'
+import { BannerPromo, BannerPromoSecond } from '~/assets/index'
 export const carouselItems = [
   {
     id: 1,

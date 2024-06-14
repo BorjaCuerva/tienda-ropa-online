@@ -28,7 +28,7 @@ import {
   TopNegroChica,
   TopRojo,
   TopGris,
-} from '@/public/index'
+} from '~/assets/index'
 
 export const products = [
   {

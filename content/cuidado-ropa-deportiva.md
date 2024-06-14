@@ -6,7 +6,7 @@ description: 'Descubre cómo puedes mantener tu ropa deportiva en perfectas cond
 
 # Cuidado y Mantenimiento de tu Ropa Deportiva
 
-![Cuidado y Mantenimiento de tu Ropa Deportiva](/img/blogs/ropa-blog.jpg)
+![Cuidado y Mantenimiento de tu Ropa Deportiva](/blogs/ropa-blog.jpg)
 
 Tu ropa deportiva es una inversión crucial para tu salud y bienestar. Con el cuidado adecuado, puedes extender la vida útil de tus prendas y asegurarte de que ofrezcan el mejor rendimiento en cada entrenamiento. Aquí tienes una guía detallada sobre cómo cuidar y mantener tu ropa deportiva.
 

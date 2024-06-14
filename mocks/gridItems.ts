@@ -5,7 +5,7 @@ import {
   SudaderaAmarilla,
   PantalonCorto,
   TopGris,
-} from '@/public/index'
+} from '~/assets/index'
 
 export const gridItems = [
   {

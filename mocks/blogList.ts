@@ -1,4 +1,4 @@
-import { ClothesBlog, SportBlog, RunningBlog, RoutineBlog } from '@/public/index'
+import { ClothesBlog, SportBlog, RunningBlog, RoutineBlog } from '~/assets/index'
 
 export const blogs = [
   {
@@ -33,7 +33,7 @@ export const blogs = [
     description:
       'Para mejorar tu rendimiento deportivo, es fundamental implementar rutinas de entrenamiento bien estructuradas y personalizadas a tus necesidades específicas',
     slug: 'rutinas-entrenamiento-rendimiento',
-    date: '11-5-2024',
+    date: '11-05-2024',
     alt: 'Camisetas Sportivat',
     imgUrl: RoutineBlog,
   },
